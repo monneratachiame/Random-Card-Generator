@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+}
+
+.card {
+  display: inline-block;
+  margin: auto;
+  height: 350px;
+  width: 200px;
+  border-radius: 20px;
+  border: 1px solid bclack;
+}
+.top-suit {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 60px;
+}
+
+.bottom-suit {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+}
+
+.number {
+  text-align: center;
+  line-height: 350px;
+  font-size: 60px;
+}
+
+.diamond,
+.heart {
+  color: red;
+}
